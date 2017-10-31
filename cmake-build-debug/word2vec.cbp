@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="word2vec"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="word2vec">
+				<Option output="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/word2vec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/bin/boost_1_63_0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 word2vec"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="word2vec/fast">
+				<Option output="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/word2vec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/bin/boost_1_63_0"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 word2vec/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenchengen/CLionProjects/word2vec/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/Dictionary.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/Dictionary.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/StringUtil.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/StringUtil.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/args.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/args.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/logging.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/logging.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/main.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/matrix.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/matrix.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/model.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/model.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/real.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/utils.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/utils.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/vector.cc">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/vector.h">
+			<Option target="word2vec"/>
+		</Unit>
+		<Unit filename="/Users/chenchengen/CLionProjects/word2vec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

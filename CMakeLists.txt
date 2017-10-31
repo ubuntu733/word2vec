@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.8)
+project(word2vec)
+find_library(GLOG glog)
+set(CMAKE_CXX_STANDARD 11)
+find_package(Boost REQUIRED COMPONENTS system filesystem)
+include_directories(${Boost_INCLUDE_DIRS})
+set(SOURCE_FILES Dictionary.h Dictionary.cc matrix.h matrix.cc model.h model.cc real.h utils.h utils.cc vector.h vector.cc
+        logging.cc logging.h StringUtil.cc StringUtil.h args.cc args.h main.cc)
+add_executable(word2vec ${SOURCE_FILES})
+target_link_libraries(word2vec boost_regex)
+target_link_libraries(word2vec ${Boost_LIBRARIES})
+target_link_libraries(word2vec glog)
